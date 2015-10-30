@@ -1,0 +1,22 @@
+body {
+	background-color: #3498db;
+	color: #2c3e50;
+}
+
+html, body, #fitme {
+	font-family: 'Lato', HelveticNeue, Arial, Verdana, sans-serif;
+	height: 100%;
+	width: 100%;
+	font-size: 32px;
+	line-height: 1;
+}
+
+#fitme {
+	box-sizing: border-box;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+span {
+	outline: none;
+}
