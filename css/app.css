@@ -1,20 +1,24 @@
 body {
-	background-color: #50C3F7;
-	color: #FFFFFF;
+	background-color: #292D3E;
+	color: #6C8ACB;
 }
 
-html, body, #fitme {
+html, body {
 	font-family: 'Lato', HelveticNeue, Arial, Verdana, sans-serif;
-	height: 100%;
-	width: 100%;
-	font-size: 32px;
-	line-height: 1;
+	height: 100vh;
 }
 
 #fitme {
+	min-height: 100%;
+	font-size: 32px;
+	line-height: 1;
+
 	box-sizing: border-box;
 	padding: 10px;
 	text-transform: uppercase;
+	outline: none;
+	overflow: scroll;
+	word-wrap: normal;
 }
 
 span {
