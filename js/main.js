@@ -22,7 +22,6 @@ window.addEventListener(
     false
 );
 
-//window.addEventListener('resize', resizeText)
 document.querySelector('#fitme').addEventListener('keyup', resizeText);
 
 function resizeText({ target }) {
